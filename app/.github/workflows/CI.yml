@@ -1,7 +1,6 @@
 name: CI - Build and Push to ECR (POC)
  
 on:
-# workflow_dispatch:
  push:
    branches:
      - main
