@@ -1,5 +1,5 @@
 name: CI - Build and Push to ECR (POC)
- #w
+ 
 on:
  push:
    branches:
