@@ -1,16 +1,9 @@
 name: CI - Build and Push to ECR (POC)
-
+ 
 on:
-<<<<<<< HEAD:.github/workflows/CI.yml
-# workflow_dispatch:
  push:
    branches:
      - main
-=======
-  push:
-    branches:
-    - main
->>>>>>> 6ab9e0549de3e880480b9697039e020a0e51f234:app/.github/workflows/CI.yml
 env:
     AWS_REGION: ${{ secrets.AWS_REGION }}
     ECR_REPOSITORY:  ${{ secrets.ECR_REPOSITORY }}
